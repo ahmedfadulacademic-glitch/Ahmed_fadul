@@ -1,6 +1,6 @@
 // My Workshop: cards, detail pages, request form, language switch.
 const PORTFOLIO_URL = "index.html";
-const FORM_KEY = "";  // free key from web3forms.com (see README). Empty: the form opens the visitor's email app.
+const FORM_KEY = "78dcbeaf-8f33-42e9-bc57-9137eafbff6a";  // free key from web3forms.com (see README). Empty: the form opens the visitor's email app.
 const MY_EMAIL = "ahmedfadulacademic@gmail.com";
 
 let lang = "en";
