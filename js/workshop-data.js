@@ -109,5 +109,13 @@ const SV = [
   st:["Put all the layers on one grid and clip them to the study area.","Score every criterion from 1 to 5 with the class table.","Apply the AHP weights and combine the layers.","Round to classes, clean the result and compute the areas.","I check every result myself before it goes to a client."]},
  ar:{t:"أتمتة تحليل ملاءمة المواقع (بايثون)", s:"سير عمل الملاءمة كاملًا بشكل آلي.",
   w:"أداة كتبتها ببايثون تنفّذ سير عمل تحليل الملاءمة آليًا: التصنيف وأوزان AHP والتراكب الموزون والخريطة وإحصاءات المساحة. تكرر طريقة مشروع تخرجي على بيانات جديدة.",
-  st:["أضع جميع الطبقات على شبكة واحدة وأقصّها على منطقة الدراسة.","أعطي كل معيار درجة من 1 إلى 5 حسب جدول الفئات.","أطبّق أوزان AHP وأدمج الطبقات.","أقرّب النتيجة إلى فئات وأنظّفها وأحسب المساحات.","أراجع كل نتيجة بنفسي قبل أن تصل إلى العميل."]}}
+  st:["أضع جميع الطبقات على شبكة واحدة وأقصّها على منطقة الدراسة.","أعطي كل معيار درجة من 1 إلى 5 حسب جدول الفئات.","أطبّق أوزان AHP وأدمج الطبقات.","أقرّب النتيجة إلى فئات وأنظّفها وأحسب المساحات.","أراجع كل نتيجة بنفسي قبل أن تصل إلى العميل."]}},
+{id:"hydrology-tool", g:"built",
+ tools:[["React","React","b"],["FastAPI","FastAPI","b"],["Python","Python","b"]],
+ en:{t:"Hydrological analysis web tool", s:"Draw an area on a map and get its hydrology.",
+  w:"A web tool I built for hydrological analysis. You draw the area of interest on a map, and the tool finds the elevation data, runs the hydrological steps and returns the streams, watersheds and rainfall information.",
+  st:["Draw the area of interest on a map.","The tool finds and downloads the elevation model (DEM) for the area through an API and prepares it.","Run the hydrological analysis: fill sinks, flow direction, flow accumulation, stream order and watershed.","Convert the results to polygons (watersheds) and polylines (streams).","Get the rainfall data for the area from open-source datasets."]},
+ ar:{t:"أداة ويب للتحليل الهيدرولوجي", s:"ارسم منطقة على الخريطة واحصل على تحليلها الهيدرولوجي.",
+  w:"أداة ويب بنيتها للتحليل الهيدرولوجي. ترسم المنطقة المطلوبة على الخريطة، فتجد الأداة بيانات الارتفاعات وتنفّذ خطوات التحليل الهيدرولوجي وتعيد المجاري الجريانية وأحواض التصريف ومعلومات الأمطار.",
+  st:["أرسم المنطقة المطلوبة على الخريطة.","تبحث الأداة عن نموذج الارتفاعات الرقمي (DEM) للمنطقة وتنزّله عبر API وتجهّزه.","تنفّذ التحليل الهيدرولوجي: ملء الحفر، واتجاه الجريان، وتراكم الجريان، ورتبة المجرى، وحوض التصريف.","تحوّل النتائج إلى مضلعات (أحواض التصريف) وخطوط (المجاري).","تجلب بيانات الأمطار للمنطقة من مصادر بيانات مفتوحة."]}}
 ];
